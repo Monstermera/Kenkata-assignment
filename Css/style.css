@@ -341,9 +341,6 @@ background-color: var(--color-grey-3);
             }
 
 /* Shop-by-category */
-.shop-by-category {
-
-}
     .shop-by-category .grid {
         display: grid;
         gap: 0.5rem;
