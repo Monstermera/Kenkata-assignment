@@ -3,6 +3,7 @@
 
 
 /* ROOT-delen, vi skapar shortcut för att enklare nå, bland annat, dem färger, storlekar, typsnitt etc vi behöver till sidan */
+/* Från Hans videoföreläsningar */
 :root {
     --color-theme: #20d3c2;
     --color-theme-light: #edfcfa;
@@ -39,6 +40,7 @@
 /* Här har vi den generella stylingen som gäller för återkommande delar på hela sidan. Text alla knappar ska
 se ut på ett viss sätt och istället för att skriva koden/styligen för varje enskild knapp så får de en "generell" klass 
 som gäller för de alla */
+/* Allt på den genrelladelen är från Hans videoföreläsningar */
 
 html, body {
     font-size: 16px;
@@ -145,7 +147,6 @@ a {
 
     a:hover {
         color: var(--color-theme-dark);
-        text-decoration: underline; 
     }
 
 
@@ -214,7 +215,7 @@ a {
 /* Vår meny-del är uppdelad i tre delar och alla delar är gjorda med hjälp av 
 flexbox. Här har vi all styling för första delen av menyn. Vi har en dropdown-meny 
 där man välja både språk och valuta */
-
+/* Från Hans videoföreläsningar */
 .top-menu {
     background-color: var(--color-theme);
     color: var(--color-white);
@@ -271,7 +272,7 @@ där man välja både språk och valuta */
 
 /* Stylingen för den högra delen av vår navbar. Gäller bland annat för länkarna/ikonerna för sociala medier.
 Vi har satt den storlek och färg vi vill ha på den samt hovereffekt*/
-
+/* Från Hans videoföreläsningar */
     .top-menu .menu-links a {
         color: var(--color-white);
         text-decoration: none;
@@ -296,7 +297,7 @@ Vi har satt den storlek och färg vi vill ha på den samt hovereffekt*/
                 }
 
 /* I main-menyn har vi vår logga, sökruta, mitt konto samt vår kundkorg  */
-
+/* Från Hans videoföreläsningar */
 .main-menu {
     background-color: var(--color-white);
     color: var(--color-theme-dark);
@@ -354,6 +355,8 @@ Vi har satt den storlek och färg vi vill ha på den samt hovereffekt*/
                 }
 
 /* Länkar och sociala medier-ikonerna */
+/* Från Hans videoföreläsningar */
+
     .main-menu .menu-links {
         flex: 3;
         display: flex;
@@ -464,7 +467,7 @@ Vi har satt den storlek och färg vi vill ha på den samt hovereffekt*/
 
 /* Här har vi vår stora rubrik, en stor bild och lite info om sidan. 
 Även denna del är gjord med hjälp av flexbox */
-
+/* Från Hans videoföreläsningar */
 .showcase {
     background-color: var(--color-grey-3);
 }
@@ -495,6 +498,7 @@ Vi har satt den storlek och färg vi vill ha på den samt hovereffekt*/
     }
 
 /* Fyra informationsboxar som handlar om sidans leveransalternativ, kundtjänst och betalningsätt */
+/* Från Hans videoföreläsningar */
 
 .webshop-info {
     padding: 6rem 0;
@@ -559,6 +563,7 @@ Vi har satt den storlek och färg vi vill ha på den samt hovereffekt*/
             }
 
 /* Den här delen är byggd med hjälp av grid och här har vi kort sagt olika kategorier man kan shoppa efter */
+/* Från Hans videoföreläsningar */
 
 .shop-by-category .grid {
     display: grid;
@@ -641,6 +646,7 @@ Vi har satt den storlek och färg vi vill ha på den samt hovereffekt*/
 är också generell (tillsammans med lite justeringar då) använder samma styling för resterande 
 av korten på sidan. Vi har en transition på korten, vi har en meny med alternativval där man bland 
 annat enkelt kan lägga en vara i varukorgen. Vi har ett ordinarepris och ett rabatteratpris */
+/* Från Hans videoföreläsningar */
 
 .new-arrivals {
     padding-top: 7rem;
@@ -883,7 +889,7 @@ det jag förmodar är lite info gällande medlemskap. Gjord med hjälp av flexbo
             margin-left: 1.6rem;
         }
     
-        .flash-sale .countdown span {
+        .flash-sale .countdown .circle {
             font-family: var(--font-play);
             font-weight: var(--font-weight-bold);
             font-size: var(--font-size-14);
@@ -892,7 +898,7 @@ det jag förmodar är lite info gällande medlemskap. Gjord med hjälp av flexbo
             padding-top: 0.7rem;
         }
 
-          .flash-sale .countdown p {
+          .flash-sale .countdown .circle p {
               font-family: var(--font-roboto);
               font-weight: var(--font-weight-regular);
               font-size: 1.17rem;
@@ -1043,6 +1049,7 @@ Samt coypright */
 /* MY ACCOUNT */
 /* Nu har vi kommit del två av hemsidan, nämligen my account. Vi stylar den lite enkelt och lägger en länk till
 huvudsidan där man enkelt kan växla mellan sidorna */
+/* Från Hans videoföreläsningar */
 
 .site-title {
     background-color: var(--color-theme-dark-light);
@@ -1102,6 +1109,7 @@ huvudsidan där man enkelt kan växla mellan sidorna */
  /* Vi skapar inloggnings- och registerformulär med hjälp av grid och flexbox. Inloggningsformuläret ger möjlighet att 
  logga in med hjälp av Facebook och Google. För att göra det enkelt har vi använts oss av bilder här istället för riktiga knappar. 
  Och satt en hover. */
+/* Från Hans videoföreläsningar */
 
 .signup-signin {
     margin: 6rem 0;
